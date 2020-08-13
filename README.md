@@ -9,11 +9,11 @@
 	 open edit scheme -> Run -> Build Configuration: Release
 
 5. add this code in didFinishLaunching:
-	  FirebaseApp.configure()
-    Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(false)
-    Crashlytics.crashlytics().checkForUnsentReports { _ in
+    - FirebaseApp.configure()
+    - Crashlytics.crashlytics().setCrashlyticsCollectionEnabled(false)
+    - Crashlytics.crashlytics().checkForUnsentReports { _ in
         Crashlytics.crashlytics().sendUnsentReports()
-    }
+    	}
 
 6. open build setting of your project:
 	  - search for (Build Active Architecture Only) change it to "YES"
