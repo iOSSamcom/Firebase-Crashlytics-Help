@@ -26,4 +26,6 @@
 
 8. write this anywhere in your project to force crash your app: fatalError()
 
-# Note: If above steps are not followed then you won't get crash report in Firebase console
+
+
+Note: If above steps are not followed then you won't get crash report in Firebase console
